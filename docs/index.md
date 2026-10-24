@@ -20,18 +20,17 @@ for<br>
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+Hi my name Jared I like robot
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+I am responsible for Board 3, grip sensing node. My board will be responsible for measuring force exerted by the gripper via an FSR sensor, processing that data, and sending it to the BUS node.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
 
 ### Individual Board Setup
 [Board Setup](https://drive.google.com/file/d/1WovJlWUD0FGS_7TVPbnDsgVDz8M93XAZ/view?usp=sharing)
+
+### Component Selection Set PDF
+
+[Component Selection](https://drive.google.com/file/d/18kufE3Zg4QZ3YiIJnYG1Oz_JjZvpOrpc/view?usp=sharing) 
