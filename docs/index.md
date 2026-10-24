@@ -5,9 +5,9 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Jared) Datasheet</font><br>
+<font size= "6">Jared's Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> End-Effector - Force Sensing Gripper</font><br>
 for<br>
 <font size= "5"> Team 104 </font><br>
 
