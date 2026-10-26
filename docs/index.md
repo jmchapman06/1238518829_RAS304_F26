@@ -34,3 +34,9 @@ I am responsible for Board 3, grip sensing node. My board will be responsible fo
 ### Component Selection Set PDF
 
 [Component Selection](https://drive.google.com/file/d/18kufE3Zg4QZ3YiIJnYG1Oz_JjZvpOrpc/view?usp=sharing) 
+
+### Schematic PDF & ZIP file
+
+[Shematic PDF](https://drive.google.com/file/d/1IHgyO0LeYkqvkTlwvSRy3JcP1Tcuktzj/view?usp=sharing)
+[Download Schematic ZIP](my-board-3.zip)
+
