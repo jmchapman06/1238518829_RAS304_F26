@@ -15,7 +15,7 @@ Connector to Bus Node: I will utilize an 8-pin connector to the Hub Board for di
 
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
 
-![Block Diagram](individual-block-diagram.png)
+
+![Block Diagram](board-3-jared-block-diagram.png)
