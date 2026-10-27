@@ -6,19 +6,16 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+Sensing: My board will utilize an FSR sensor for force data
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+Power: The board will be powered via a barrel jack from a battery or a wall outlet adapter into a voltage regulator.
+
+Connector to Bus Node: I will utilize an 8-pin connector to the Hub Board for digital and analog.
+
+
 
 
 ## Example Block Diagram 
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Block Diagram](individual-block-diagram.png)
