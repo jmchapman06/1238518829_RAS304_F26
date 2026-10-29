@@ -1,22 +1,40 @@
 ---
 title: Power Budget
 ---
+title: Power Budget
+---
 
-## Overview
-Write a overview of what you did and why you did a Power Budget.
+# Power Budget
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
+**Team Number:** ###<br>
+**Project Name:** Robotic Gripper – Tactile Force Sensing Node (Board 3)<br>
+**Team Member Names:** (team member names)<br>
+**Version:** 1
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+## Section A: All Major Components
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
+| Component Name | Part Number | Supply Voltage Range | Qty. | Absolute Maximum Current (mA) | Total Current (mA) | Unit |
+|---|---|---|---|---|---|---|
+| Microcontroller (PIC18F57Q43 Curiosity Nano) | DM164150 | +1.8 – 5.5V | 1 | 250 | 250 | mA |
+| Quad Op-Amp | MCP6004-I/P | +1.8 – 6.0V | 1 | 30 | 30 | mA |
+| Force Sensor (FSR + 1 kΩ divider) | Interlink FSR 402 (30-81794) | +5V | 1 | 5 | 5 | mA |
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+## Section B: +5V Power Rail
 
-## Conclusions
+| Component Name | Part Number | Supply Voltage Range | Qty. | Absolute Maximum Current (mA) | Total Current (mA) | Unit |
+|---|---|---|---|---|---|---|
+| Microcontroller (PIC18F57Q43 Curiosity Nano) | DM164150 | +1.8 – 5.5V | 1 | 250 | 250 | mA |
+| Quad Op-Amp | MCP6004-I/P | +1.8 – 6.0V | 1 | 30 | 30 | mA |
+| Force Sensor (FSR + 1 kΩ divider) | Interlink FSR 402 (30-81794) | +5V | 1 | 5 | 5 | mA |
+| | | | | | **Subtotal** | **285 mA** |
+| | | | | | **Safety Margin** | **25%** |
+| | | | | | **Total Current Required on +5V Rail** | **356.25 mA** |
 
-From the prepare Power Budget, .....
+## Section C: Regulator
 
-## Resouces
+| Component Name | Part Number | Supply Voltage Range | Qty. | Absolute Maximum Current (mA) | Total Current (mA) | Unit |
+|---|---|---|---|---|---|---|
+| +5V Regulator | LM7805 (TO-220) | +7 – 35V | 1 | 1500 | 1500 | mA |
+| | | | | | **Total Remaining Current Available on +5V Rail** | **1143.75 mA** |
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+**Regulator or Source Choice (+5V Rail):** LM7805 linear regulator
