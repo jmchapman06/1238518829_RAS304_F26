@@ -6,10 +6,7 @@ title: Power Budget
 
 # Power Budget
 
-**Team Number:** ###<br>
-**Project Name:** Robotic Gripper – Tactile Force Sensing Node (Board 3)<br>
-**Team Member Names:** (team member names)<br>
-**Version:** 1
+
 
 ## Section A: All Major Components
 
