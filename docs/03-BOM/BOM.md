@@ -8,21 +8,20 @@ tags:
 ## Overview
 written context
 
-## Bill of Materials Example (as Table)
+## Bill of Materials
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+*Table 1: Bill of Materials for RAS304.*
 
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
+| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacturer** | **Part #** | **Vendor Link** | **Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
+| FSR 400 Series Force Sensing Resistor | 5 | $6.42 | $32.08 | Interlink Electronics | 1027-1001-ND | [DigiKey](https://www.digikey.com/en/products/detail/interlink-electronics/30-81794/2476468) | [datasheet link](https://3899023.fs1.hubspotusercontent-na2.net/hubfs/3899023/Interlinkelectronics%20November2017/Docs/Datasheet_FSR.pdf) | |
+| MCP4006 | 1 | N/A | N/A | Microchip | DS-20001733 | [Microchip](https://www.microchip.com/en-us/product/MCP6004) | [datasheet link](https://www.microchip.com/en-us/product/MCP6004) | |
+| LM7805 Voltage Regulator | 1 | N/A | N/A | Adafruit | 2164 | [DigiKey](https://www.digikey.com/en/products/base-product/texas-instruments/296/LM7805/17942) | [datasheet link](https://www.ti.com/lit/ds/symlink/lm340.pdf) | |
+| 0.33 µF Capacitor | 10 | $0.21 | $2.08 | TDK | 445-173379-1-ND | [DigiKey](https://www.digikey.com/en/products/detail/tdk/FG24X7R1H334KNT06/5802993) | [datasheet link](https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf) | |
+| 30K Resistor | 50 | $0.03 | $1.62 | Stackpole Electronics | S36KCATR-ND | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNMF14FTC36K0/2617336) | [datasheet link](https://www.seielect.com/catalog/SEI-RNF_RNMF.pdf) | |
+| 20K Resistor | 50 | $0.03 | $1.62 | Stackpole Electronics | RNF14FTD20K0TR-ND | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNF14FTD20K0/1706705) | [datasheet link](https://www.seielect.com/catalog/SEI-RNF_RNMF.pdf) | |
+| HC-SR501 PIR Motion Sensor | 1 | $9.57 | $9.57 | SunFounder | 4411-ST0012-ND | [DigiKey](https://www.digikey.com/en/products/detail/sunfounder/ST0012/22116811) | [datasheet link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8924/ST0012%20%20%20HC-SR501%20Human%20Body%20Pyroelectricity%20Infrared%20Sensor%20Module.pdf) | |
+| S013 MCU | 1 | $12.95 | $12.95 | M5Stack Technology Co. | 2221-S013-ND | [DigiKey](https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/S013/29291635) | [datasheet link](https://docs.m5stack.com/en/core/Stamp-P4) | |
+| **Total** | | | **$59.92** | | | | | |
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+*Note: Parts listed as N/A had no cost recorded. The total includes only parts with a listed cost.*
