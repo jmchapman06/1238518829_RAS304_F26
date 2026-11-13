@@ -12,4 +12,4 @@ The schematic design and my board is responsible for force data utilizing the FS
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](Board-3-Force-Sensing-Node.pdf), and the Zip folder of the project [*here*](my-board-3.zip).
+The schematic as a PDF download is available [*here*](my-board-3.pdf), and the Zip folder of the project [*here*](my-board-3.zip).
